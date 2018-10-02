@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GymPlayer</string>
+    <string name="intensity_playlist">Intensity Playlist</string>
+    <string name="volume_playlist">Volume Playlist</string>
+    <string name="cardio_playlist">Cardio Playlist</string>
+    <string name="stretching_playlist">Stretching Playlist</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="skip_to_prev">Skips to previous song (not implemented yet)</string>
+    <string name="skip_to_next">Skips to next song (not implemented yet)</string>
+    <string name="change_playlist">Change Playlist</string>
+</resources>

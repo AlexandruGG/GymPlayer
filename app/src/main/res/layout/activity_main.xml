@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Intensity Playlist -->
+    <FrameLayout
+        android:id="@+id/frame_intensity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/playlist_margin"
+        android:layout_weight="1"
+        android:background="@drawable/customborder">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_intensity"
+                style="@style/ImageStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/barbell" />
+
+            <TextView
+                android:id="@+id/text_intensity"
+                style="@style/PlaylistStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/intensity_playlist" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Volume Playlist -->
+    <FrameLayout
+        android:id="@+id/frame_volume"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/playlist_margin"
+        android:layout_weight="1"
+        android:background="@drawable/customborder">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/dumbbell" />
+
+            <TextView
+                android:id="@+id/text_volume"
+                style="@style/PlaylistStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/volume_playlist" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Cardio Playlist -->
+    <FrameLayout
+        android:id="@+id/frame_cardio"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/playlist_margin"
+        android:layout_weight="1"
+        android:background="@drawable/customborder">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/cardio" />
+
+            <TextView
+                android:id="@+id/text_cardio"
+                style="@style/PlaylistStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/cardio_playlist" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Stretching Playlist -->
+    <FrameLayout
+        android:id="@+id/frame_stretching"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/playlist_margin"
+        android:layout_weight="1"
+        android:background="@drawable/customborder">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/stretching" />
+
+            <TextView
+                android:id="@+id/text_stretching"
+                style="@style/PlaylistStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/stretching_playlist" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
